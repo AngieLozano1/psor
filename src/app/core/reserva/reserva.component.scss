@@ -1,0 +1,76 @@
+#form{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+#form input{
+	margin: 10px;
+	width: 340px;
+	border: none;
+	border-bottom: solid 1px;
+	text-align: center;
+}
+#form button{
+	margin: 10px;
+	padding: 10px;
+	background-color:#9e1f0f ;
+	border: none;
+	border-radius: 15px;
+	color: darkgreen;
+	font-size: 16px;
+}
+#form button:hover{
+	background-color: darkgreen ;
+	cursor: pointer;
+	color: #9e1f0f;
+	text-decoration: underline;
+}
+#none{
+	display: none;
+}
+#cuadro{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+#cuadro label{
+	border-radius: 15px;
+	cursor: pointer;
+	background-image: url('../../../assets/mesas.jpg');
+	background-size: 100%;
+	margin-right: 12px;
+	margin-bottom: 12px;
+	width: 200px;
+	height: 100px;
+}
+#cuadro label p{
+	font-size: 20px;
+	position: relative;
+	top: 50px;
+	left: 27%;
+	color: white;
+}
+.button{
+	margin-left: 48%;
+	background-color: #6a001a;
+	border: none;
+	padding: 15px;
+	border-radius: 10px;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	color: white;
+	font-size: 20px;
+}
+.button:hover{
+	background-color: #9e1f0f;
+	text-decoration: underline;
+	cursor: pointer;
+}
+#mensaje{
+	font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+	font-size: x-large;
+	text-align: center;
+	padding: 10px;
+}
